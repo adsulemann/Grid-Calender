@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url(canva-people-walking-at-thurra-river-sand-dunes-MAAgcLurNjk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+display: grid;
+max-width: 100px;
+padding: 20px;
+grid-template-columns: repeat(7,1fr);
+}
+
+.module{
+background-color:blue;
+color: white;
+border: 1px solid;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+}
+
+.monday ,.teusday,.wednesday,.thursday,.friday{
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.saturday,.sunday{
+  background-color: red;
+}
+.module:hover{
+  background-color: #4CAF50;
+  color: white;
+  cursor:pointer; 
+}
+
+
+
